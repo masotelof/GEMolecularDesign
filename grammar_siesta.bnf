@@ -1,0 +1,11 @@
+<start> ::= <FR> C( <HBAD> ) N <Hy> <HBAD>
+
+<base> ::= ([C@@H](C <AL> ) C(<HBAD>) N[C@@H](C[C@@H]3CCNC3 <HBAD> )[C@@H](<HBAD>) C(=O)NC c4ccccc4)
+
+<HBAD> ::= C(C&CCNC&=O) | C(CC(=O)NC) | C(CNC(=O)CC) | C(CC(=O)O) | C(CCC(=O)O) | C(C(=O)C(=O)O) | C(CC(=O)C(=O)O) | C(O)(C&OC(O)C(O)C&O) | C(O)(C&OC(O)C(O)C(O)C&O) | C(C&(O)OC(CO)C(O)C(O)C&(N))
+
+<AL> ::= CC2CC2 | (CC2C(N)C2) | CC2C(CO)C2 | CC2C(c5ccccc5)C2 | CC2CCC2 | CC2CC(N)C2 | CC2CC(CO)C2 | CC2CC(c5ccccc5)C2 | CC2CCCCC2 | CC2CCC(N)CC2 | CC2CCC(CO)CC2 | CC2CCC(c5ccccc5)CC2
+
+<FR> ::= CC(C)(C)C | CCCC | Cc1ccccc1 | CN1C=CC=CC1 | Cc1c[nH]cn1 | Cc1cnn[nH]1 | Cc1ncco1 | Cc1nccs1 | CC2Nc1c(c(=O)n(C)c(=O)n1C)N2C | Cc1ccno1
+
+<Hy> ::= C1CCCC <base> C1 | CC(=o)C <base> | C1CCC <base> C1 | C(c)C(=o)C <base>
