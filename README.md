@@ -44,3 +44,8 @@ It is a json file with the following parameters:
 - Iterations: iterations used in Grammatical Evolution.
 - ItemSize: item size used in Grammatical Evolution.
 - AttributeMin: attributed to be minimize from the summarize result file.
+
+## License
+This software was developed for the contribution https://doi.org/10.1039/D1CP04159B. The data, usage,
+and files needed for its execution are under the Open Source
+license.
